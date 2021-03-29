@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:Model">
+   </FileRef>
+   <FileRef
+      location = "group:DataAccess">
+   </FileRef>
+   <FileRef
+      location = "group:AGM-Hodinkee.xcodeproj">
+   </FileRef>
+</Workspace>

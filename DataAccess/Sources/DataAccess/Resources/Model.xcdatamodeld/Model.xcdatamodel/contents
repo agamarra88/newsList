@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="17709" systemVersion="20D91" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="ArticleImageLocal" representedClassName="ArticleImageLocal" syncable="YES">
+        <attribute name="image" optional="YES" attributeType="Binary"/>
+        <relationship name="article" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="ArticleLocal" inverseName="picture" inverseEntity="ArticleLocal"/>
+    </entity>
+    <entity name="ArticleLocal" representedClassName="ArticleLocal" syncable="YES">
+        <attribute name="content" optional="YES" attributeType="String"/>
+        <attribute name="creationDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="id" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+        <relationship name="picture" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="ArticleImageLocal" inverseName="article" inverseEntity="ArticleImageLocal"/>
+    </entity>
+    <elements>
+        <element name="ArticleImageLocal" positionX="153.0338745117188" positionY="-3.79791259765625" width="128" height="73"/>
+        <element name="ArticleLocal" positionX="-63" positionY="-18" width="128" height="104"/>
+    </elements>
+</model>

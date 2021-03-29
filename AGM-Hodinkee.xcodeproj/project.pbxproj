@@ -1,0 +1,723 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A01C579B2611723E00C773E8 /* ArticleListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01C579A2611723E00C773E8 /* ArticleListViewModel.swift */; };
+		A01C57A12611777400C773E8 /* ArticleListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01C57A02611777400C773E8 /* ArticleListView.swift */; };
+		A01C57A72611785100C773E8 /* DILocator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A01C57A62611785100C773E8 /* DILocator.swift */; };
+		A01C57AE261188F500C773E8 /* URLImage in Frameworks */ = {isa = PBXBuildFile; productRef = A01C57AD261188F500C773E8 /* URLImage */; };
+		A03956C526116E7D0049C9DC /* Model in Frameworks */ = {isa = PBXBuildFile; productRef = A03956C426116E7D0049C9DC /* Model */; };
+		A095DA8E26119C1C00B6D44D /* ArticleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A095DA8D26119C1C00B6D44D /* ArticleView.swift */; };
+		A095DA952611A66300B6D44D /* ImagePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A095DA942611A66300B6D44D /* ImagePickerView.swift */; };
+		A095DAA12611B3B700B6D44D /* ArticleEditViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A095DAA02611B3B600B6D44D /* ArticleEditViewModel.swift */; };
+		A0ECAA15261109D200869818 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0ECAA14261109D200869818 /* AppDelegate.swift */; };
+		A0ECAA17261109D200869818 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0ECAA16261109D200869818 /* SceneDelegate.swift */; };
+		A0ECAA19261109D200869818 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0ECAA18261109D200869818 /* ViewController.swift */; };
+		A0ECAA1C261109D200869818 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0ECAA1A261109D200869818 /* Main.storyboard */; };
+		A0ECAA21261109D500869818 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0ECAA20261109D500869818 /* Assets.xcassets */; };
+		A0ECAA24261109D500869818 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0ECAA22261109D500869818 /* LaunchScreen.storyboard */; };
+		A0ECAA2F261109D500869818 /* AGM_HodinkeeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0ECAA2E261109D500869818 /* AGM_HodinkeeTests.swift */; };
+		A0ECAA3A261109D500869818 /* AGM_HodinkeeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0ECAA39261109D500869818 /* AGM_HodinkeeUITests.swift */; };
+		A0ECAA5026110AA300869818 /* DataAccess in Frameworks */ = {isa = PBXBuildFile; productRef = A0ECAA4F26110AA300869818 /* DataAccess */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A0ECAA2B261109D500869818 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A0ECAA09261109D100869818 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A0ECAA10261109D100869818;
+			remoteInfo = "AGM-Hodinkee";
+		};
+		A0ECAA36261109D500869818 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A0ECAA09261109D100869818 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A0ECAA10261109D100869818;
+			remoteInfo = "AGM-Hodinkee";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A01C579A2611723E00C773E8 /* ArticleListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleListViewModel.swift; sourceTree = "<group>"; };
+		A01C57A02611777400C773E8 /* ArticleListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleListView.swift; sourceTree = "<group>"; };
+		A01C57A62611785100C773E8 /* DILocator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DILocator.swift; sourceTree = "<group>"; };
+		A095DA8D26119C1C00B6D44D /* ArticleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleView.swift; sourceTree = "<group>"; };
+		A095DA942611A66300B6D44D /* ImagePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerView.swift; sourceTree = "<group>"; };
+		A095DAA02611B3B600B6D44D /* ArticleEditViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleEditViewModel.swift; sourceTree = "<group>"; };
+		A0ECAA11261109D200869818 /* AGM-Hodinkee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AGM-Hodinkee.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0ECAA14261109D200869818 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A0ECAA16261109D200869818 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A0ECAA18261109D200869818 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A0ECAA1B261109D200869818 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A0ECAA20261109D500869818 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A0ECAA23261109D500869818 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A0ECAA25261109D500869818 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0ECAA2A261109D500869818 /* AGM-HodinkeeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AGM-HodinkeeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0ECAA2E261109D500869818 /* AGM_HodinkeeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AGM_HodinkeeTests.swift; sourceTree = "<group>"; };
+		A0ECAA30261109D500869818 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0ECAA35261109D500869818 /* AGM-HodinkeeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AGM-HodinkeeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0ECAA39261109D500869818 /* AGM_HodinkeeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AGM_HodinkeeUITests.swift; sourceTree = "<group>"; };
+		A0ECAA3B261109D500869818 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A0ECAA0E261109D100869818 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A03956C526116E7D0049C9DC /* Model in Frameworks */,
+				A01C57AE261188F500C773E8 /* URLImage in Frameworks */,
+				A0ECAA5026110AA300869818 /* DataAccess in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0ECAA27261109D500869818 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0ECAA32261109D500869818 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A01C579F2611773F00C773E8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A01C57A02611777400C773E8 /* ArticleListView.swift */,
+				A095DA8D26119C1C00B6D44D /* ArticleView.swift */,
+				A095DA942611A66300B6D44D /* ImagePickerView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A01C57A5261177BB00C773E8 /* DI */ = {
+			isa = PBXGroup;
+			children = (
+				A01C57A62611785100C773E8 /* DILocator.swift */,
+			);
+			path = DI;
+			sourceTree = "<group>";
+		};
+		A03956C926116E9A0049C9DC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A01C579F2611773F00C773E8 /* Views */,
+				A03956CB26116EB70049C9DC /* ViewControllers */,
+				A03956CA26116EB00049C9DC /* Storyboards */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A03956CA26116EB00049C9DC /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				A0ECAA1A261109D200869818 /* Main.storyboard */,
+				A0ECAA22261109D500869818 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		A03956CB26116EB70049C9DC /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				A0ECAA18261109D200869818 /* ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		A03956CC26116EC00049C9DC /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				A01C579A2611723E00C773E8 /* ArticleListViewModel.swift */,
+				A095DAA02611B3B600B6D44D /* ArticleEditViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		A03956CD26116F120049C9DC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A0ECAA20261109D500869818 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A0ECAA08261109D100869818 = {
+			isa = PBXGroup;
+			children = (
+				A0ECAA13261109D200869818 /* AGM-Hodinkee */,
+				A0ECAA2D261109D500869818 /* AGM-HodinkeeTests */,
+				A0ECAA38261109D500869818 /* AGM-HodinkeeUITests */,
+				A0ECAA12261109D200869818 /* Products */,
+				A0ECAA4E26110AA300869818 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A0ECAA12261109D200869818 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A0ECAA11261109D200869818 /* AGM-Hodinkee.app */,
+				A0ECAA2A261109D500869818 /* AGM-HodinkeeTests.xctest */,
+				A0ECAA35261109D500869818 /* AGM-HodinkeeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A0ECAA13261109D200869818 /* AGM-Hodinkee */ = {
+			isa = PBXGroup;
+			children = (
+				A01C57A5261177BB00C773E8 /* DI */,
+				A03956CD26116F120049C9DC /* Resources */,
+				A03956CC26116EC00049C9DC /* ViewModel */,
+				A03956C926116E9A0049C9DC /* Views */,
+				A0ECAA14261109D200869818 /* AppDelegate.swift */,
+				A0ECAA16261109D200869818 /* SceneDelegate.swift */,
+				A0ECAA25261109D500869818 /* Info.plist */,
+			);
+			path = "AGM-Hodinkee";
+			sourceTree = "<group>";
+		};
+		A0ECAA2D261109D500869818 /* AGM-HodinkeeTests */ = {
+			isa = PBXGroup;
+			children = (
+				A0ECAA2E261109D500869818 /* AGM_HodinkeeTests.swift */,
+				A0ECAA30261109D500869818 /* Info.plist */,
+			);
+			path = "AGM-HodinkeeTests";
+			sourceTree = "<group>";
+		};
+		A0ECAA38261109D500869818 /* AGM-HodinkeeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A0ECAA39261109D500869818 /* AGM_HodinkeeUITests.swift */,
+				A0ECAA3B261109D500869818 /* Info.plist */,
+			);
+			path = "AGM-HodinkeeUITests";
+			sourceTree = "<group>";
+		};
+		A0ECAA4E26110AA300869818 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A0ECAA10261109D100869818 /* AGM-Hodinkee */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0ECAA3E261109D500869818 /* Build configuration list for PBXNativeTarget "AGM-Hodinkee" */;
+			buildPhases = (
+				A0ECAA0D261109D100869818 /* Sources */,
+				A0ECAA0E261109D100869818 /* Frameworks */,
+				A0ECAA0F261109D100869818 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AGM-Hodinkee";
+			packageProductDependencies = (
+				A0ECAA4F26110AA300869818 /* DataAccess */,
+				A03956C426116E7D0049C9DC /* Model */,
+				A01C57AD261188F500C773E8 /* URLImage */,
+			);
+			productName = "AGM-Hodinkee";
+			productReference = A0ECAA11261109D200869818 /* AGM-Hodinkee.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A0ECAA29261109D500869818 /* AGM-HodinkeeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0ECAA41261109D500869818 /* Build configuration list for PBXNativeTarget "AGM-HodinkeeTests" */;
+			buildPhases = (
+				A0ECAA26261109D500869818 /* Sources */,
+				A0ECAA27261109D500869818 /* Frameworks */,
+				A0ECAA28261109D500869818 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A0ECAA2C261109D500869818 /* PBXTargetDependency */,
+			);
+			name = "AGM-HodinkeeTests";
+			productName = "AGM-HodinkeeTests";
+			productReference = A0ECAA2A261109D500869818 /* AGM-HodinkeeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A0ECAA34261109D500869818 /* AGM-HodinkeeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0ECAA44261109D500869818 /* Build configuration list for PBXNativeTarget "AGM-HodinkeeUITests" */;
+			buildPhases = (
+				A0ECAA31261109D500869818 /* Sources */,
+				A0ECAA32261109D500869818 /* Frameworks */,
+				A0ECAA33261109D500869818 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A0ECAA37261109D500869818 /* PBXTargetDependency */,
+			);
+			name = "AGM-HodinkeeUITests";
+			productName = "AGM-HodinkeeUITests";
+			productReference = A0ECAA35261109D500869818 /* AGM-HodinkeeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A0ECAA09261109D100869818 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					A0ECAA10261109D100869818 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					A0ECAA29261109D500869818 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = A0ECAA10261109D100869818;
+					};
+					A0ECAA34261109D500869818 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = A0ECAA10261109D100869818;
+					};
+				};
+			};
+			buildConfigurationList = A0ECAA0C261109D100869818 /* Build configuration list for PBXProject "AGM-Hodinkee" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A0ECAA08261109D100869818;
+			packageReferences = (
+				A01C57AC261188F500C773E8 /* XCRemoteSwiftPackageReference "url-image" */,
+			);
+			productRefGroup = A0ECAA12261109D200869818 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A0ECAA10261109D100869818 /* AGM-Hodinkee */,
+				A0ECAA29261109D500869818 /* AGM-HodinkeeTests */,
+				A0ECAA34261109D500869818 /* AGM-HodinkeeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A0ECAA0F261109D100869818 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0ECAA24261109D500869818 /* LaunchScreen.storyboard in Resources */,
+				A0ECAA21261109D500869818 /* Assets.xcassets in Resources */,
+				A0ECAA1C261109D200869818 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0ECAA28261109D500869818 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0ECAA33261109D500869818 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A0ECAA0D261109D100869818 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0ECAA19261109D200869818 /* ViewController.swift in Sources */,
+				A01C57A72611785100C773E8 /* DILocator.swift in Sources */,
+				A01C57A12611777400C773E8 /* ArticleListView.swift in Sources */,
+				A01C579B2611723E00C773E8 /* ArticleListViewModel.swift in Sources */,
+				A095DA952611A66300B6D44D /* ImagePickerView.swift in Sources */,
+				A0ECAA15261109D200869818 /* AppDelegate.swift in Sources */,
+				A095DAA12611B3B700B6D44D /* ArticleEditViewModel.swift in Sources */,
+				A095DA8E26119C1C00B6D44D /* ArticleView.swift in Sources */,
+				A0ECAA17261109D200869818 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0ECAA26261109D500869818 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0ECAA2F261109D500869818 /* AGM_HodinkeeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0ECAA31261109D500869818 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0ECAA3A261109D500869818 /* AGM_HodinkeeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A0ECAA2C261109D500869818 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A0ECAA10261109D100869818 /* AGM-Hodinkee */;
+			targetProxy = A0ECAA2B261109D500869818 /* PBXContainerItemProxy */;
+		};
+		A0ECAA37261109D500869818 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A0ECAA10261109D100869818 /* AGM-Hodinkee */;
+			targetProxy = A0ECAA36261109D500869818 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A0ECAA1A261109D200869818 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A0ECAA1B261109D200869818 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A0ECAA22261109D500869818 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A0ECAA23261109D500869818 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A0ECAA3C261109D500869818 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A0ECAA3D261109D500869818 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A0ECAA3F261109D500869818 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H9MAL9P855;
+				INFOPLIST_FILE = "AGM-Hodinkee/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wildom.AGM-Hodinkee";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A0ECAA40261109D500869818 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H9MAL9P855;
+				INFOPLIST_FILE = "AGM-Hodinkee/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wildom.AGM-Hodinkee";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A0ECAA42261109D500869818 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "AGM-HodinkeeTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wildom.AGM-HodinkeeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AGM-Hodinkee.app/AGM-Hodinkee";
+			};
+			name = Debug;
+		};
+		A0ECAA43261109D500869818 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "AGM-HodinkeeTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wildom.AGM-HodinkeeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AGM-Hodinkee.app/AGM-Hodinkee";
+			};
+			name = Release;
+		};
+		A0ECAA45261109D500869818 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "AGM-HodinkeeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wildom.AGM-HodinkeeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "AGM-Hodinkee";
+			};
+			name = Debug;
+		};
+		A0ECAA46261109D500869818 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "AGM-HodinkeeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wildom.AGM-HodinkeeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "AGM-Hodinkee";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A0ECAA0C261109D100869818 /* Build configuration list for PBXProject "AGM-Hodinkee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0ECAA3C261109D500869818 /* Debug */,
+				A0ECAA3D261109D500869818 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0ECAA3E261109D500869818 /* Build configuration list for PBXNativeTarget "AGM-Hodinkee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0ECAA3F261109D500869818 /* Debug */,
+				A0ECAA40261109D500869818 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0ECAA41261109D500869818 /* Build configuration list for PBXNativeTarget "AGM-HodinkeeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0ECAA42261109D500869818 /* Debug */,
+				A0ECAA43261109D500869818 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0ECAA44261109D500869818 /* Build configuration list for PBXNativeTarget "AGM-HodinkeeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0ECAA45261109D500869818 /* Debug */,
+				A0ECAA46261109D500869818 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A01C57AC261188F500C773E8 /* XCRemoteSwiftPackageReference "url-image" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/dmytro-anokhin/url-image";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.2.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A01C57AD261188F500C773E8 /* URLImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A01C57AC261188F500C773E8 /* XCRemoteSwiftPackageReference "url-image" */;
+			productName = URLImage;
+		};
+		A03956C426116E7D0049C9DC /* Model */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Model;
+		};
+		A0ECAA4F26110AA300869818 /* DataAccess */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = DataAccess;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = A0ECAA09261109D100869818 /* Project object */;
+}
