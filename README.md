@@ -14,6 +14,11 @@ The project is managed using Combine and Alamofire for network comunication.
 
 You can see some images in the image folder:
 
+[Dashboard](/Images/img1.png?raw=true "Dashboard")
+
+[Add Article](/Images/img2.png?raw=true "Add Article")
+
+
 TODOS:
 - Refactor some views
 - Add missing dependecy injection
